@@ -35,9 +35,9 @@ namespace BookStoreApp.API.Repositories.Concrete
                 var viewModel = _mapper.Map<List<AuthorVM>>(authors);
                 return viewModel;
             }
-            catch (Exception ex)
+            catch
             {
-                throw new Exception(ex.Message);
+                throw;
             }
         }
 
@@ -58,9 +58,9 @@ namespace BookStoreApp.API.Repositories.Concrete
                 var viewModel = _mapper.Map<AuthorVM>(author);
                 return viewModel;
             }
-            catch (Exception ex)
+            catch
             {
-                throw new Exception(ex.Message);
+                throw;
             }
         }
 
@@ -82,9 +82,9 @@ namespace BookStoreApp.API.Repositories.Concrete
                 var viewModel = _mapper.Map<AuthorVM>(newAuthor);
                 return viewModel;
 
-            }catch(Exception ex)
+            }catch
             {
-                throw new Exception(ex.Message);
+                throw;
             }
         }
 
@@ -112,9 +112,9 @@ namespace BookStoreApp.API.Repositories.Concrete
 
                 return viewModel;
             }
-            catch(Exception ex)
+            catch
             {
-                throw new Exception(ex.Message);
+                throw;
             }
         }
 
@@ -137,9 +137,9 @@ namespace BookStoreApp.API.Repositories.Concrete
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
-                throw new Exception(ex.Message);
+                throw;
             }
         }
     }

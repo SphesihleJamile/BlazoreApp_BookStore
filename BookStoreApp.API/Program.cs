@@ -25,6 +25,7 @@ builder.Host.UseSerilog((ctx, lc) =>
         lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IBooksRepository, BooksRepository>();
 
 builder.Services.AddCors(cor =>
 {

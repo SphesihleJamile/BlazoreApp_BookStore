@@ -1,0 +1,77 @@
+2023-06-17 20:08:43.204 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:08:43.323 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:08:43.333 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:08:43.337 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:08:43.338 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:08:56.657 +02:00 [INF] Processing GET request for GetAuthors
+2023-06-17 20:09:08.436 +02:00 [INF] Processing GET request for GetBooks
+2023-06-17 20:09:08.515 +02:00 [WRN] Records Not Found
+2023-06-17 20:09:50.311 +02:00 [INF] Processing GET request for GetBooks
+2023-06-17 20:09:59.979 +02:00 [WRN] Records Not Found
+2023-06-17 20:10:38.823 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:10:38.897 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:10:38.906 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:10:38.908 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:10:38.910 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:11:02.167 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:11:05.211 +02:00 [WRN] Book Validation Failed: Endpoint PutBook | BookCreate - {"Title":"","Year":0,"Isbn":"","Summary":"","Image":"","Price":0,"AuthorId":0,"$type":"BookCreateVM"}
+2023-06-17 20:15:33.966 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:15:34.040 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:15:34.048 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:15:34.052 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:15:34.055 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:16:30.050 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:16:30.135 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:16:30.149 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:16:30.152 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:16:30.154 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:17:03.189 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:17:20.884 +02:00 [WRN] ISBN Value Already Exists Or Author Does Not Exist: Endpoint - PutBook | BookCreate - BookStoreApp.API.ViewModels.BooksViewModels.BookCreateVM
+2023-06-17 20:17:51.901 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:17:52.177 +02:00 [ERR] Error performing GET in PostBook
+System.InvalidOperationException: The LINQ expression 'DbSet<Book>()
+    .Any(b => b.Isbn.Equals(
+        value: __ISBN_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Additional information: Translation of the 'string.Equals' overload with a 'StringComparison' parameter is not supported. See https://go.microsoft.com/fwlink/?linkid=2129535 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|15_0(ShapedQueryExpression translated, <>c__DisplayClass15_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source, Expression`1 predicate)
+   at BookStoreApp.API.Repositories.Concrete.BooksRepository.IsISBNUnique(String ISBN) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Repositories\Concrete\BooksRepository.cs:line 144
+   at BookStoreApp.API.Repositories.Concrete.BooksRepository.CreateBookAsync(BookCreateVM bookCreate) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Repositories\Concrete\BooksRepository.cs:line 30
+   at BookStoreApp.API.Controllers.BooksController.PostBook(BookCreateVM bookCreate) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Controllers\BooksController.cs:line 135
+2023-06-17 20:18:01.520 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:19:30.838 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:19:30.923 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:19:30.933 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:19:30.935 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:19:30.935 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:20:13.095 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:20:20.403 +02:00 [WRN] Book Validation Failed: Endpoint PutBook | BookCreate - {"Title":"The Life of Sketch","Year":2024,"Isbn":"1234sbgsf.gxneurh","Summary":"","Image":"","Price":50,"AuthorId":1,"$type":"BookCreateVM"}
+2023-06-17 20:20:35.501 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:20:38.931 +02:00 [ERR] Error performing GET in PostBook
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method78(Closure , QueryContext )
+   at System.Linq.Queryable.Last[TSource](IQueryable`1 source)
+   at BookStoreApp.API.Repositories.Concrete.BooksRepository.CreateBookAsync(BookCreateVM bookCreate) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Repositories\Concrete\BooksRepository.cs:line 36
+   at BookStoreApp.API.Controllers.BooksController.PostBook(BookCreateVM bookCreate) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Controllers\BooksController.cs:line 135
+2023-06-17 20:20:47.752 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:22:06.678 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-17 20:22:06.777 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-17 20:22:06.792 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-17 20:22:06.794 +02:00 [INF] Hosting environment: Development
+2023-06-17 20:22:06.795 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-17 20:22:24.035 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:22:24.195 +02:00 [WRN] Book Validation Failed: Endpoint PutBook | BookCreate - {"Title":"The Life of Sketch","Year":2024,"Isbn":"1234sbgsf.gxneurh","Summary":"","Image":"","Price":50,"AuthorId":1,"$type":"BookCreateVM"}
+2023-06-17 20:22:39.852 +02:00 [INF] Processing GET request for PostBook
+2023-06-17 20:22:53.904 +02:00 [INF] Processing GET request for GetBooks
+2023-06-17 20:23:06.142 +02:00 [INF] Processing GET request for GetBook
+2023-06-17 20:23:39.705 +02:00 [INF] Processing GET request for PutBook
+2023-06-17 20:24:00.486 +02:00 [INF] Processing GET request for GetBooks
