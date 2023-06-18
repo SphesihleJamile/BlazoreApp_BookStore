@@ -1,0 +1,34 @@
+2023-06-18 10:24:13.800 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 10:24:13.844 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 10:24:13.848 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 10:24:13.850 +02:00 [INF] Hosting environment: Development
+2023-06-18 10:24:13.851 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 10:24:35.632 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 10:24:35.668 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 10:24:35.679 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 10:24:35.684 +02:00 [INF] Hosting environment: Development
+2023-06-18 10:24:35.687 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 10:25:10.775 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-06-18 10:25:25.519 +02:00 [INF] Login Attempt For User - admin@bokstore.com
+2023-06-18 10:27:53.541 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 10:27:53.597 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 10:27:53.604 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 10:27:53.605 +02:00 [INF] Hosting environment: Development
+2023-06-18 10:27:53.606 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 10:28:03.351 +02:00 [INF] Registration Attempt For User - string
+2023-06-18 10:28:03.393 +02:00 [WRN] User Validation Failed : Endpoint - Register | UserVM - {"FirstName":"string","LastName":"string","Email":"string","Password":"string","Role":"string","$type":"UserCreateVM"}
+2023-06-18 10:29:29.169 +02:00 [INF] Registration Attempt For User - user@example
+2023-06-18 10:29:29.189 +02:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2023-06-18 10:29:29.190 +02:00 [WRN] Failed To Register User : Endpoint - Register | UserVM - {"FirstName":"string","LastName":"string","Email":"user@example","Password":"user@example","Role":"string","$type":"UserCreateVM"}
+2023-06-18 10:29:59.975 +02:00 [INF] Registration Attempt For User - user@example
+2023-06-18 10:30:02.202 +02:00 [ERR] Error Registering User in Register
+System.InvalidOperationException: Role STRING does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at BookStoreApp.API.Repositories.Concrete.UserRepository.CreateUserAsync(UserCreateVM userCreate) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Repositories\Concrete\UserRepository.cs:line 40
+   at BookStoreApp.API.Controllers.AuthController.Register(UserCreateVM userVM) in C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\Controllers\AuthController.cs:line 42
+2023-06-18 10:30:22.453 +02:00 [INF] Registration Attempt For User - user@example
+2023-06-18 10:30:22.515 +02:00 [WRN] User validation failed: DuplicateUserName.
+2023-06-18 10:30:22.517 +02:00 [WRN] Failed To Register User : Endpoint - Register | UserVM - {"FirstName":"string","LastName":"string","Email":"user@example","Password":"180132nd@Avenue","Role":"User","$type":"UserCreateVM"}
+2023-06-18 10:32:09.880 +02:00 [INF] Registration Attempt For User - user@example
+2023-06-18 10:33:48.176 +02:00 [INF] Login Attempt For User - user@example
