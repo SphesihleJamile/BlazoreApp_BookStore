@@ -39,3 +39,78 @@ System.InvalidOperationException: Role STRING does not exist.
 2023-06-18 12:11:01.506 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
 2023-06-18 12:12:11.388 +02:00 [INF] Login Attempt For User - admin@bookstore.com
 2023-06-18 12:12:13.733 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:18:42.239 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:18:42.275 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:18:42.278 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:18:42.279 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:18:42.280 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:19:49.412 +02:00 [INF] Login Attempt For User - string
+2023-06-18 12:19:49.457 +02:00 [WRN] User Validation Failed : Endpoint - Login | UserLogin - {"Username":"string","Password":"string","$type":"UserLoginVM"}
+2023-06-18 12:23:50.742 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:23:52.922 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:08.948 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:25:08.998 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:09.860 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:25:09.875 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:10.494 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:25:10.501 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:11.129 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:25:11.136 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:32.556 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:25:32.561 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:25:54.658 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-06-18 12:25:54.665 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:27:31.371 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:27:31.418 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:27:31.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:27:31.424 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:27:31.425 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:28:21.950 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-06-18 12:28:33.428 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:30:10.983 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:30:11.021 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:30:11.026 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:30:11.027 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:30:11.028 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:30:34.856 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-06-18 12:30:41.019 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 12:33:36.254 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:33:36.321 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:33:36.326 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:33:36.327 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:33:36.328 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:34:36.665 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:34:36.690 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:34:36.693 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:34:36.694 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:34:36.694 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:34:39.342 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:34:39.378 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:34:39.382 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:34:39.382 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:34:39.383 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:35:16.827 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 12:35:21.886 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 13:12:47.943 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 13:12:47.991 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 13:12:47.995 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 13:12:47.996 +02:00 [INF] Hosting environment: Development
+2023-06-18 13:12:47.996 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 13:13:09.633 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 13:13:13.546 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 13:13:43.294 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:21:09.397 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 13:21:09.443 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 13:21:09.446 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 13:21:09.447 +02:00 [INF] Hosting environment: Development
+2023-06-18 13:21:09.448 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 13:21:16.136 +02:00 [INF] Login Attempt For User - user@bookstore.com
+2023-06-18 13:21:18.364 +02:00 [INF] Generating Login Token at GenerateToken
+2023-06-18 13:21:46.792 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:21:51.964 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:21:54.047 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:21:58.788 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:22:50.206 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:23:07.792 +02:00 [INF] Processing GET request for GetBooks
+2023-06-18 13:23:20.537 +02:00 [INF] Processing DELETE request for DeleteBook
+2023-06-18 13:23:20.556 +02:00 [WRN] Record Not Found: Endpoint - DeleteBook | Id - 4

@@ -71,23 +71,26 @@ namespace BookStoreApp.API.Repositories.Concrete
 
             var userClaims = await _userManager.GetClaimsAsync(user);
 
-            var claims = new List<Claim>
+            var claims = new List<Claim>()
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(CustomClaimTypes.UserId, user.Id),
-            }
-                .Union(roleClaims);
+            };
 
-            if(userClaims != null)
-                claims = claims.Union(userClaims);
+            if(roleClaims != null && roleClaims.Any())
+                claims = claims.Union(roleClaims).ToList();
+
+            if(userClaims != null && userClaims.Count > 0)
+                claims = claims.Union(userClaims).ToList();
 
             var token = new JwtSecurityToken(
                 issuer: _config.GetValue<string>("JwtSettings:Issuer"),
                 audience: _config.GetValue<string>("JwtSettings:Audience"),
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(_config.GetValue<int>("JwtSettings:DurationInHours"))
+                expires: DateTime.UtcNow.AddMinutes(_config.GetValue<int>("JwtSettings:DurationInHours")),
+                signingCredentials: credentials
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);

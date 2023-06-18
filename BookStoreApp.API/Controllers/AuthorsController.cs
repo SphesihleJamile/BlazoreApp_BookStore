@@ -11,11 +11,14 @@ using BookStoreApp.API.ViewModels.AuthorViewModels;
 using BookStoreApp.API.Validations.AuthorValidations;
 using BookStoreApp.API.Repositories.Abstract;
 using BookStoreApp.API.Static;
+using System.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AuthorsController : ControllerBase
     {
         private readonly IAuthorRepository _authorRepository;
@@ -29,7 +32,7 @@ namespace BookStoreApp.API.Controllers
         }
 
         // GET: api/Authors
-        [HttpGet]
+        [HttpGet] 
         public async Task<IActionResult> GetAuthors()
         {
             _logger.LogInformation($"Processing GET request for {nameof(GetAuthors)}");
@@ -76,9 +79,10 @@ namespace BookStoreApp.API.Controllers
             }
         }
 
-        // PUT: api/Authors/5
+        // PUT: api/Authors/5c
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id:int}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutAuthor([FromRoute] int id, [FromBody] AuthorUpdateVM authorUpdate)
         {
             _logger.LogInformation($"Processing PUT request for {nameof(PutAuthor)}");
@@ -115,6 +119,7 @@ namespace BookStoreApp.API.Controllers
         // POST: api/Authors
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PostAuthor(AuthorCreateVM authorCreate)
         {
             _logger.LogInformation($"Processing POST request for {nameof(PostAuthor)}");
@@ -144,6 +149,7 @@ namespace BookStoreApp.API.Controllers
 
         // DELETE: api/Authors/5
         [HttpDelete("{id:int}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteAuthor([FromRoute] int id)
         {
             _logger.LogInformation($"Processing DELETE request for {nameof(DeleteAuthor)}");
