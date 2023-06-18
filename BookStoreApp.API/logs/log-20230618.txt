@@ -32,3 +32,10 @@ System.InvalidOperationException: Role STRING does not exist.
 2023-06-18 10:30:22.517 +02:00 [WRN] Failed To Register User : Endpoint - Register | UserVM - {"FirstName":"string","LastName":"string","Email":"user@example","Password":"180132nd@Avenue","Role":"User","$type":"UserCreateVM"}
 2023-06-18 10:32:09.880 +02:00 [INF] Registration Attempt For User - user@example
 2023-06-18 10:33:48.176 +02:00 [INF] Login Attempt For User - user@example
+2023-06-18 12:11:01.451 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 12:11:01.499 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 12:11:01.504 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 12:11:01.506 +02:00 [INF] Hosting environment: Development
+2023-06-18 12:11:01.506 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 12:12:11.388 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-06-18 12:12:13.733 +02:00 [INF] Generating Login Token at GenerateToken

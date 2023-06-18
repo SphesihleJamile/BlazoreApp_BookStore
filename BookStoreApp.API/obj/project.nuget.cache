@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j2uPlwU8oDuy2rL81EQUaueT+J2CCc2HxaEEKMzFC/Emi9fYcCaEGh540ejwQwJuH9HGpkZfgC2S8vaOx2uQ7A==",
+  "dgSpecHash": "MIBrKV6CTH52ChFZ8iF34yPmgv/Ww4wlp0fdiSAgxc4Taa3gd0GZKqDKvhCpVDDvSvCGu0rL3l7y8zSfwzzWMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SphesihleJ\\source\\repos\\BookStoreApp\\BookStoreApp.API\\BookStoreApp.API.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,7 @@
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
+    "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.18\\microsoft.aspnetcore.authentication.jwtbearer.6.0.18.nupkg.sha512",
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.18\\microsoft.aspnetcore.cryptography.internal.6.0.18.nupkg.sha512",
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.18\\microsoft.aspnetcore.cryptography.keyderivation.6.0.18.nupkg.sha512",
     "C:\\Users\\SphesihleJ\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.18\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.18.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using BookStoreApp.API.Repositories.Abstract;
+using BookStoreApp.API.Responses;
 using BookStoreApp.API.Static;
 using BookStoreApp.API.Validations.UserValidations;
 using BookStoreApp.API.ViewModels.AuthorViewModels;
@@ -59,7 +60,7 @@ namespace BookStoreApp.API.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(UserLoginVM userLogin)
+        public async Task<ActionResult<AuthResponse>> Login(UserLoginVM userLogin)
         {
             _logger.LogInformation("Login Attempt For User - {Username}", userLogin.Username);
             try
@@ -76,10 +77,15 @@ namespace BookStoreApp.API.Controllers
 
                 var loginResult = await _userRepository.LoginUserAsync(userLogin);
 
-                if (!loginResult)
-                    return NotFound(Messages.UserNotFound);
+                if (loginResult.Length == 1)
+                {
+                    _logger.LogWarning("User Login Failed for User {@userLogin}", userLogin);
+                    return Unauthorized(userLogin);
+                }
 
-                return Accepted();
+                var authResponse = (AuthResponse)loginResult[1];
+
+                return Accepted(authResponse);
 
             }catch(Exception ex)
             {

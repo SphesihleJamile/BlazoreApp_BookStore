@@ -5,6 +5,6 @@ namespace BookStoreApp.API.Repositories.Abstract
     public interface IUserRepository
     {
         Task<List<string>?> CreateUserAsync(UserCreateVM userCreate);
-        Task<bool> LoginUserAsync(UserLoginVM userLogin);
+        Task<object[]> LoginUserAsync(UserLoginVM userLogin);
     }
 }
