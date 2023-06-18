@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BookStoreApp.Blazor.Server.UI/1.0.0": {
+        "runtime": {
+          "BookStoreApp.Blazor.Server.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookStoreApp.Blazor.Server.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
