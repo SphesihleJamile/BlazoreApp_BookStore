@@ -284,3 +284,8 @@ C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
