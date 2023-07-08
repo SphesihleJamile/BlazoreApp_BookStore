@@ -30,3 +30,14 @@ C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\obj\
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\obj\Debug\net6.0\BookStoreApp.Blazor.Server.UI.pdb
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\obj\Debug\net6.0\BookStoreApp.Blazor.Server.UI.genruntimeconfig.cache
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\obj\Debug\net6.0\ref\BookStoreApp.Blazor.Server.UI.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\obj\Debug\net6.0\BookStoreApp.Blazor.Server.UI.csproj.CopyComplete
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.Blazor.Server.UI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

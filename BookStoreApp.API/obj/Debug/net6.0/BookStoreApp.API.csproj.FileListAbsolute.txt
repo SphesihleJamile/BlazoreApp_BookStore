@@ -289,11 +289,4 @@ C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.Mvc.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.Razor.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.Helpers.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\System.Web.WebPages.dll
-C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

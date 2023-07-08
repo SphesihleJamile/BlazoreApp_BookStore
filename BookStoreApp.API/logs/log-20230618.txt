@@ -114,3 +114,63 @@ System.InvalidOperationException: Role STRING does not exist.
 2023-06-18 13:23:07.792 +02:00 [INF] Processing GET request for GetBooks
 2023-06-18 13:23:20.537 +02:00 [INF] Processing DELETE request for DeleteBook
 2023-06-18 13:23:20.556 +02:00 [WRN] Record Not Found: Endpoint - DeleteBook | Id - 4
+2023-06-18 16:07:59.753 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:07:59.791 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:07:59.794 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:07:59.795 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:07:59.795 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:08:34.211 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:08:34.272 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:08:34.276 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:08:34.277 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:08:34.278 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:10:42.278 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:10:42.320 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:10:42.324 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:10:42.325 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:10:42.326 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:12:09.237 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:12:09.286 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:12:09.290 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:12:09.291 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:12:09.292 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:14:45.854 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:14:45.897 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:14:45.914 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:14:45.916 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:14:45.917 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:17:53.473 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:17:53.513 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:17:53.516 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:17:53.517 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:17:53.518 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 16:19:57.280 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 16:19:57.313 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 16:19:57.317 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 16:19:57.318 +02:00 [INF] Hosting environment: Development
+2023-06-18 16:19:57.319 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 17:44:00.205 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 17:44:00.250 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 17:44:00.253 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 17:44:00.254 +02:00 [INF] Hosting environment: Development
+2023-06-18 17:44:00.254 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 17:46:45.137 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 17:46:45.173 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 17:46:45.177 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 17:46:45.179 +02:00 [INF] Hosting environment: Development
+2023-06-18 17:46:45.179 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 17:48:51.416 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 17:48:51.456 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 17:48:51.459 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 17:48:51.461 +02:00 [INF] Hosting environment: Development
+2023-06-18 17:48:51.461 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 17:49:53.089 +02:00 [INF] Registration Attempt For User - bandile@jamile.com
+2023-06-18 17:49:55.208 +02:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit.
+2023-06-18 17:49:59.128 +02:00 [WRN] Failed To Register User : Endpoint - Register | UserVM - {"FirstName":"Bandile","LastName":"Jamile","Email":"bandile@jamile.com","Password":"BandileJamile","Role":"User","$type":"UserCreateVM"}
+2023-06-18 17:54:07.538 +02:00 [INF] Registration Attempt For User - bandile@jamile.com
+2023-06-18 17:58:44.182 +02:00 [INF] Now listening on: https://localhost:7231
+2023-06-18 17:58:44.228 +02:00 [INF] Now listening on: http://localhost:5299
+2023-06-18 17:58:44.246 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-18 17:58:44.246 +02:00 [INF] Hosting environment: Development
+2023-06-18 17:58:44.247 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-06-18 17:59:20.919 +02:00 [INF] Registration Attempt For User - jamile2@gmail.com

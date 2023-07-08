@@ -48,7 +48,7 @@ namespace BookStoreApp.API.Controllers
                     return BadRequest(result);
                 }
 
-                return Accepted();
+                return Ok();
             }
             catch(Exception ex)
             {

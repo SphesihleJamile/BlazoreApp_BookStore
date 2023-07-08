@@ -1,0 +1,82 @@
+2023-07-08 09:49:05.531 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 09:49:05.625 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 09:49:05.633 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 09:49:05.635 +02:00 [INF] Hosting environment: Development
+2023-07-08 09:49:05.637 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 09:49:30.524 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 09:49:30.608 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 09:49:30.616 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 09:49:30.618 +02:00 [INF] Hosting environment: Development
+2023-07-08 09:49:30.620 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 10:20:18.659 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 10:20:18.719 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 10:20:18.725 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 10:20:18.726 +02:00 [INF] Hosting environment: Development
+2023-07-08 10:20:18.727 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 10:21:00.460 +02:00 [INF] Registration Attempt For User - bandile@gmail.com
+2023-07-08 10:31:12.036 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 10:31:12.105 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 10:31:12.113 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 10:31:12.114 +02:00 [INF] Hosting environment: Development
+2023-07-08 10:31:12.116 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 10:46:11.112 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 10:46:11.161 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 10:46:11.165 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 10:46:11.166 +02:00 [INF] Hosting environment: Development
+2023-07-08 10:46:11.167 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 10:46:49.891 +02:00 [INF] Login Attempt For User - bandile@gmail.com
+2023-07-08 10:46:52.041 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 11:45:54.089 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 11:45:54.158 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 11:45:54.166 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 11:45:54.167 +02:00 [INF] Hosting environment: Development
+2023-07-08 11:45:54.168 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 11:46:34.760 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 11:46:34.812 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 11:46:34.819 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 11:46:34.820 +02:00 [INF] Hosting environment: Development
+2023-07-08 11:46:34.821 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 11:48:47.870 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 11:48:47.918 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 11:48:47.923 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 11:48:47.924 +02:00 [INF] Hosting environment: Development
+2023-07-08 11:48:47.925 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 12:01:05.543 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 12:01:05.599 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 12:01:05.602 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 12:01:05.604 +02:00 [INF] Hosting environment: Development
+2023-07-08 12:01:05.605 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 12:01:29.462 +02:00 [INF] Login Attempt For User - bandile@gmail.com
+2023-07-08 12:01:31.704 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 12:02:01.470 +02:00 [INF] Login Attempt For User - jamile2@gmail.com
+2023-07-08 12:02:01.520 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 12:04:29.059 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 12:04:29.120 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 12:04:29.126 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 12:04:29.127 +02:00 [INF] Hosting environment: Development
+2023-07-08 12:04:29.128 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 12:04:55.755 +02:00 [INF] Login Attempt For User - jamile2@gmail.com
+2023-07-08 12:04:57.945 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 13:05:16.716 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 13:05:16.779 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 13:05:16.784 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 13:05:16.785 +02:00 [INF] Hosting environment: Development
+2023-07-08 13:05:16.786 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 13:06:01.563 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-07-08 13:06:03.807 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 13:06:04.140 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-07-08 13:06:04.186 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 13:07:03.992 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 13:07:04.040 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 13:07:04.045 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 13:07:04.046 +02:00 [INF] Hosting environment: Development
+2023-07-08 13:07:04.046 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
+2023-07-08 13:07:17.372 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-07-08 13:07:18.077 +02:00 [INF] Login Attempt For User - admin@bookstore.com
+2023-07-08 13:07:19.318 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 13:07:19.318 +02:00 [INF] Generating Login Token at GenerateToken
+2023-07-08 13:10:17.605 +02:00 [INF] Now listening on: https://localhost:7231
+2023-07-08 13:10:17.663 +02:00 [INF] Now listening on: http://localhost:5299
+2023-07-08 13:10:17.668 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-08 13:10:17.670 +02:00 [INF] Hosting environment: Development
+2023-07-08 13:10:17.674 +02:00 [INF] Content root path: C:\Users\SphesihleJ\source\repos\BookStoreApp\BookStoreApp.API\
